@@ -2,18 +2,18 @@
 <br />
 <a href="http://www.vultr.com/?ref=7157195"><div style="text-align:center"><img src ="http://i.imgur.com/R88YrpU.png" /></div></a>
 <br />
- **Simpel java API for the Vultr cloud.**<br />
+ **Simpel java standalone API for the Vultr cloud.**<br />
  **(Only supports the Vultr Cloud Compute(VC2))**
 <br />
 ## Features:
--	Manage Servers (destroy, restart, start, stop(halt), reinstall, create snapshot)
--	Create Servers
--	Get Vultr Plans
--	Get SnapShots
--	Get VultrOperatingSystems
--	Get VulterRegions
--	Easy webAPI call 
--	Get Balance of the account
+-  Manage Servers (destroy, restart, start, stop(halt), reinstall, create snapshot)
+-  Create Servers
+-  Get Vultr Plans
+-  Get SnapShots
+-  Get VultrOperatingSystems
+-  Get VulterRegions
+-  Easy webAPI call 
+-  Get Balance of the account
 
 If you want to see more have a look at the source code.
 ## Example: 
