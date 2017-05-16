@@ -1,5 +1,5 @@
 # Vultr API
- **Simpl java API for the hoster: https://www.vultr.com/**
+ **Simpl java API for the hoster: https://www.vultr.com/**<br />
  **(Only supports the Vultr Cloud Compute(VC2))**
 
 ## Features:
@@ -129,11 +129,11 @@ if(vrr.isOK()){
     
 ## Console:
 
-Cost: 5.00
-ID: 8511794
-IP: 45.63.77.18
-Default Password: L?b2ug)VKnRgqAdA
-Server created! Info: at.ltd.server.VultrServer, DCID: 2, LOCATION: Chicago, PLANID: 201, CPU: 1, RAM: 1024 MB, DISK: Virtual 25 GB
+Cost: 5.00<br />
+ID: 8511794<br />
+IP: 45.63.77.18<br />
+Default Password: L?b2ug)VKnRgqAdA<br />
+Server created! Info: at.ltd.server.VultrServer, DCID: 2, LOCATION: Chicago, PLANID: 201, CPU: 1, RAM: 1024 MB, DISK: Virtual 25 GB<br />
 Reboot done!
 		
 
