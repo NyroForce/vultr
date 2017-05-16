@@ -1,6 +1,6 @@
 # Vultr API
-[10]: Simpl java API for the hoster: https://www.vultr.com/
-[5]: (Only supports the Vultr Cloud Compute(VC2))
+ **Simpl java API for the hoster: https://www.vultr.com/**
+ **(Only supports the Vultr Cloud Compute(VC2))**
 
 ## Features:
 -	Manage Servers (Destroy, restart, start, stop(halt), reinstall, create snapshot)
