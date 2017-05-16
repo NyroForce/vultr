@@ -1,7 +1,5 @@
 # Vultr API
-<br />
 <a href="http://www.vultr.com/?ref=7157195"><div style="text-align:center"><img src ="http://i.imgur.com/R88YrpU.png" /></div></a>
-<br />
  **Simpel java standalone API for the Vultr cloud.**<br />
  **(Only supports the Vultr Cloud Compute(VC2))**
 <br />
