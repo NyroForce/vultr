@@ -50,6 +50,12 @@ public class VultrSnapShot {
 		}
 		return hm;
 	}
+	
+	public Boolean destroy(){
+		VultrRequest vr = new VultrRequest(va.getKey());
+		VultrRequestResult vrr = vr.sendReq("snapshot/destroy", "SNAPSHOTID="+id);
+		return vrr.isOK();
+	}
 
 	public String getId() {
 		return id;

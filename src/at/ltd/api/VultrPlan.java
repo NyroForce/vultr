@@ -16,7 +16,7 @@ public class VultrPlan {
 	private Integer ram;
 	private Integer disk;
 	private Double bandwidth;
-	private String price;
+	private Double price;
 	private String plantype;
 
 	public Integer getId() {
@@ -43,7 +43,7 @@ public class VultrPlan {
 		return bandwidth;
 	}
 
-	public String getPrice() {
+	public Double getPrice() {
 		return price;
 	}
 
@@ -65,7 +65,7 @@ public class VultrPlan {
 		ram = Integer.valueOf((String) jo.get("ram"));
 		disk = Integer.valueOf((String) jo.get("disk"));
 		bandwidth = Double.valueOf((String) jo.get("bandwidth"));
-		price = (String) jo.get("price_per_month");
+		price = Double.valueOf(jo.get("price_per_month").toString());
 		plantype = (String) jo.get("plan_type");
 		return this;
 	}
