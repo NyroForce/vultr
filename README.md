@@ -2,11 +2,11 @@
 <br />
 <a href="http://www.vultr.com/?ref=7157195"><div style="text-align:center"><img src ="http://i.imgur.com/R88YrpU.png" /></div></a>
 <br />
- **Simpl java API for the hoster: https://www.vultr.com/**<br />
+ **Simpel java API for the Vultr cloud.**<br />
  **(Only supports the Vultr Cloud Compute(VC2))**
-
+<br />
 ## Features:
--	Manage Servers (Destroy, restart, start, stop(halt), reinstall, create snapshot)
+-	Manage Servers (destroy, restart, start, stop(halt), reinstall, create snapshot)
 -	Create Servers
 -	Get Vultr Plans
 -	Get SnapShots
@@ -15,7 +15,7 @@
 -	Easy webAPI call 
 -	Get Balance of the account
 
-If you want to see more look at the source code.
+If you want to see more have a look at the source code.
 ## Example: 
 
 ~~~java	
@@ -65,7 +65,7 @@ for(VultrServer vs : servers.values()){
 	//Much more
 	
 	//destroy the server
-	vs.destroy();
+	//vs.destroy();
 	
 	
 }
@@ -118,7 +118,7 @@ System.out.println("Server created! Info: " + vs.toString());
 
 VultrRequest vr = new VultrRequest(va.getKey());
 VultrRequestResult vrr = vr.sendReqS("server/reboot", "SUBID", vs.getSUBID());
-//You also can send the URL request parameters manually vr.sendReq("server/reboot", "SUBID="+vs.getSUBID());
+//You also can send the URL request parameters manually, vr.sendReq("server/reboot", "SUBID="+vs.getSUBID());
 
 //Checks the HTTP Response Code
 if(vrr.isOK()){
