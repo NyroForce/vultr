@@ -1,7 +1,7 @@
 # Vultr API
-
-<div style="text-align:center"><img src ="http://i.imgur.com/R88YrpU.png" /></div>
-
+<br />
+<a href="http://www.vultr.com/?ref=7157195"><div style="text-align:center"><img src ="http://i.imgur.com/R88YrpU.png" /></div></a>
+<br />
  **Simpl java API for the hoster: https://www.vultr.com/**<br />
  **(Only supports the Vultr Cloud Compute(VC2))**
 
